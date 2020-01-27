@@ -1,0 +1,77 @@
+.nav {
+  display: grid;
+  width: 100vw;
+  grid-template-columns: auto auto auto;
+  z-index: 100;
+  position: fixed;
+}
+
+.nav-icon {
+  width: fit-content;
+  padding: 5px;
+}
+
+.nav-menu {
+  display: inline-block;
+  width: fit-content;
+  margin: auto;
+  padding: 20px;
+}
+
+.nav-menu-item {
+  display: inline-block;
+}
+
+.nav-menu-item a {
+  all: unset;
+  display: block;
+  padding: 13px;
+  color: #fff;
+}
+
+.nav-menu-item a:hover {
+  cursor: pointer;
+  color: #7eb60e !important;
+}
+
+.nav-menu-item i {
+  display: block;
+  padding: 13px;
+  color: #fff;
+}
+
+.nav-menu-item i:hover {
+  cursor: pointer;
+  color: #7eb60e !important;
+}
+
+.sub-menu {
+  all: unset;
+  visibility: hidden;
+  display: block;
+  background-color: #fff;
+  position: absolute;
+  width: fit-content;
+  padding: 10px;
+  margin-top: 0px;
+  border-top: 2px solid #7eb60e;
+}
+
+.sub-menu li {
+  all: unset;
+  display: block;
+  width: 200px;
+  padding: 5px;
+  background: #ffffff;
+  color: #000;
+}
+
+.sub-menu li:hover {
+  cursor: pointer;
+  color: #7eb60e;
+}
+
+.nav-menu-item:hover .sub-menu,
+.nav-menu-item > a:focus .submenu {
+  visibility: visible;
+}

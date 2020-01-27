@@ -1,0 +1,55 @@
+.menu-window {
+  display: grid;
+  top: 0px;
+  left: 0px;
+  height: 100vh;
+  width: 100vw;
+  z-index: 1000;
+  background-color: #000;
+  opacity:0.9;
+  position: fixed;
+  visibility: hidden;
+}
+
+.close-menu {
+  color: #fff;
+  height: fit-content;
+  width: 100vw;
+  position: fixed;
+  text-align: right;
+}
+
+#close-menu-btn {
+  margin-right: 20px;
+  padding: 5px;
+  color: #fff;
+  font-size: 20px;
+}
+
+#close-menu-btn:hover {
+  color: #7eb60e;
+cursor: pointer;
+}
+
+.menu {
+  margin: auto;
+  width: fit-content;
+  text-align: center;
+}
+
+.menu-items {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.menu-item {
+  list-style: unset;
+  color: #fff;
+  padding: 5px;
+}
+
+.menu-item:hover {
+  cursor: pointer;
+  color: #7eb60e;
+}

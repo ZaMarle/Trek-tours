@@ -1,0 +1,613 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="nav.css" />
+    <link rel="stylesheet" href="slider.css" />
+    <link rel="stylesheet" href="menu.css" />
+
+    <script
+      src="https://kit.fontawesome.com/6e115ff99f.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.0.5/gsap.min.js"></script>
+
+    <script src="//cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/ScrollMagic.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/plugins/debug.addIndicators.min.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/plugins/animation.gsap.min.js"></script>
+
+    <title>Document</title>
+  </head>
+  
+  <div class="nav">
+    
+    <div class="nav-icon">
+      <a href="">
+        <img src="images/TrekTours-logo1.png" alt="" />
+      </a>
+    </div>
+
+    <div class="nav-menu">
+
+      <div class="nav-menu-item">
+              <a href="">TOURS</a>
+      </div>
+
+      <div class="nav-menu-item">
+              <a href="">FAQ</a>
+              <ul class="sub-menu">
+                <li>Trek Grading</li>
+              </ul>
+      </div>
+
+      <div class="nav-menu-item">
+        <a href="">ABOUT US</a>
+        <ul class="sub-menu">
+          <li>Our Guides</li>
+          <li>Testimonials</li>
+          <li>Trekkers Post</li>
+          <li>Photo Gallery</li>
+          <li>Friends</li>
+          <li>Memberships and Accreditations</li>
+        </ul>
+      </div>
+
+      <div class="nav-menu-item">
+        <a href="">SHOP</a>
+        <ul class="sub-menu">
+          <li>A Place to Stay</li>
+          <li>LarapintaTrail Maps</li>
+        </ul>
+      </div>
+
+      <div class="nav-menu-item">
+        <a href="">BOOK NOW</a>
+        <ul class="sub-menu">
+          <li>Booking Conditions</li>
+        </ul>
+      </div>
+
+      <div class="nav-menu-item">
+        <a href="">CONTACT US</a>
+      </div>
+
+      <div class="nav-menu-item">
+        <i id="nav-menu-btn" class="fas fa-bars"></i>
+      </div>
+    </div>
+  </div>
+
+<div class="menu-window" id="menu-window">
+  <div class="close-menu">
+      <i id="close-menu-btn" class="fas fa-times"></i>
+    </div>
+  <div class="menu">
+    
+    <ul class="menu-items">
+      <li class="menu-item">Home</li>
+      <li class="menu-item">Tours</li>
+      <li class="menu-item">FAQ</li>
+      <li class="menu-item">About Us</li>
+      <li class="menu-item">Shop</li>
+      <li class="menu-item">Book Now</li>
+      <li class="menu-item">Contact Us</li>
+    </ul>
+  </div>
+</div>
+
+  <body>
+    <div class="page-grid">
+      <div class="box-1">
+        <div class="slides-container">
+          <div class="slides-inner">
+            <div class="slide active">
+              <img
+                id="background-img"
+                src="images/slide/landscape.jpg"
+                alt=""
+              />
+              <div class="box-1-card">
+                <div class="box-1-text">DREAM EXPLORE DISCOVER</div>
+              </div>
+            </div>
+
+            <div class="slide hidden">
+              <img
+                id="background-img"
+                src="images/slide/landscape-2.jpeg"
+                alt=""
+              />
+              <div class="box-1-card">
+                <div class="box-1-text">RECONNECT</div>
+              </div>
+            </div>
+
+            <div class="slide hidden">
+              <img
+                id="background-img"
+                src="images/slide/landscape-3.jpeg"
+                alt=""
+              />
+              <div class="box-1-card">
+                <div class="box-1-text">TREK TOURS AUSTRALIA</div>
+              </div>
+            </div>
+
+            <div class="slide hidden">
+              <img
+                id="background-img"
+                src="images/slide/landscape-4.jpeg"
+                alt=""
+              />
+              <div class="box-1-card">
+                <div class="box-1-text">TREK WITH US</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="box-2">
+        <div class="box-2-col">
+          <div class="box-head">WE ARE TREK TOURS AUSTRALIA</div>
+          <p>
+            Trek Tours Australia is a boutique tour company focussed on taking
+            small groups into the wilds of our beautiful country, onto the paths
+            less travelled and into the heart of the Australian wilderness. Our
+            specialty is quality, deep immersion wilderness experiences; our
+            commitment is to sustainable eco-tourism principles. We employ
+            passionate, highly experienced, professional guides, who deliver
+            world class tours in some of the most spectacular places in
+            Australia. We understand that by looking after our wilderness areas
+            and having a total ‘leave no trace’ policy we are preserving the
+            areas that we visit for future generations. We abide by and believe
+            in the philosophy that when you look after the land, the land looks
+            after you.
+          </p>
+          <p>
+            Trek Tours Australia wishes to acknowledge and pay respect to the
+            Australian Aboriginal Community as the traditional and original
+            owners, and continuing custodians, including Elders, past and
+            present of the land and country through which we are privileged to
+            travel.
+          </p>
+        </div>
+      </div>
+
+      <div class="box-3">
+        <div class="box-3-col">
+          <div class="box-head">
+          DREAM, RECONNECT, EXPLORE, SHARE AND DISCOVER WITH US.
+        </div>
+        <img
+          class="center"
+          src="images/2018-Brolga-Ecotourism-Logo.png"
+          alt=""
+        />
+        </div>
+        
+      </div>
+
+      <div class="box-4">
+        <div class="box-head">WHERE WE GO</div>
+      </div>
+
+      <div class="box-5">
+        <div class="box-5-col">
+                  <div class="img-card">
+          <img id="grid-img" src="images/trek-img-1.jpeg" alt="" />
+        </div>
+        <div class="img-card">
+          <img id="grid-img" src="images/trek-img-2.jpeg" alt="" />
+        </div>
+        <div class="img-card">
+          <img id="grid-img" src="images/trek-img-3.jpeg" alt="" />
+        </div>
+        <div class="img-card">
+          <img id="grid-img" src="images/trek-img-4.jpg" alt="" />
+        </div>
+        <div class="img-card">
+          <img id="grid-img" src="images/trek-img-5.jpeg" alt="" />
+        </div>
+        <div class="img-card">
+          <img id="grid-img" src="images/trek-img-6.jpg" alt="" />
+        </div>
+        <div class="img-card">
+          <img id="grid-img" src="images/trek-img-7.jpeg" alt="" />
+        </div>
+        <div class="img-card">
+          <img id="grid-img" src="images/trek-img-8.jpeg" alt="" />
+        </div>
+        <div class="img-card">
+          <img id="grid-img" src="images/trek-img-9.jpeg" alt="" />
+        </div>
+        </div>
+
+      </div>
+
+      <div class="box-6">
+        <div class="box-head">TRAVELLER'S TALES</div>
+      </div>
+
+      <div class="box-7">
+        <div class="box-7-col">
+                  <div class="box-7-col-col">
+          <h4>Arthur Wright, South Coast Track February 2017</h4>
+          I have just walked the stunningly wild and unspoiled South Coast Track
+          in Tasmania with the company Trek Tasmania in February/March of this
+          year. I chose them because I had enjoyed their sister company, Trek
+          Larapinta, which I had used for a fantastic 16-day walk on the
+          Larapinta Trail out of Alice Springs in August 2016 (In fact, I
+          wondered whether I was physically capable of doing the South Coast
+          Track so I had asked one of my Larapinta guides at the end of that
+          hike who, having assessed me—carrying just a light pack—over 260 km,
+          said that I would be up to the South Coast Track). This 9-day full
+          pack hike was challenging (so I did a lot of training, especially with
+          a full pack) but thoroughly enjoyable because of the meticulous
+          planning by the company but, above all, because of the quality of our
+          guides. Both Jacob and Kenna are Tasmanians and they have an intimate
+          knowledge of their “backyard” and an enormous pride in the wild parts
+          of Tasmania. They have really good people skills and are very
+          encouraging, making sure that everybody enjoys the walk. When problems
+          arose—blisters? Mostly prevented through good advice, but when some
+          popped up, they were quickly patched and pain-free from then on.
+          Medical emergency? Out comes the satellite phone, and advice is
+          received and acted on. Crisis averted. And, like the guides on the
+          Larapinta, they are fantastic cooks—although on the South Coast Track
+          they lacked the Larapinta luxuries of refrigeration and camp
+          ovens—they were still able to turn out tasty, nutritious and
+          energy-filled meals using very simple equipment. And the coffee they
+          made every morning I can honestly say is some of the best I’ve ever
+          had. Jacob and Kenna carried very large (and heavy) packs and that
+          made our lives a lot easier, even though our packs were fairly heavy.
+          The guides gave us clear briefings of what to expect—what the terrain
+          would be like, how much water to carry, how to preserve the
+          environment. Highly recommended.
+        </div>
+
+        <div class="box-7-col-col">
+          <h4>Glynis A, Kakadu Explorer August 2016</h4>
+          I am writing to let you know that I had a wonderful time on the Kakadu
+          trip. I thought that things could not be better after Larapinta end to
+          end with the fantastic Cat and Joel but it did! Josh, Steve and Jo
+          were the Dream Team. Josh was such a good guide, often stopping to
+          tell us about a cave, a wall, a rock with art that we would see just
+          ahead, a bird flying overhead or a plant at our feet, cooking us
+          delicious meals every evening and just being so knowledgeable and
+          enthusiastic always. Steve was always happy to offer his hand to guide
+          me through some of the more difficult stages and was also a mind of
+          information about what we encountered along the way, fantastic. And
+          Jo, she was also a helping hand when needed with a happy smile at
+          every stage, her breakkie porridge was wonderful. Such a brilliant
+          team that worked so hard to ensure we had a wonderful trip and they
+          worked so well together – make sure you keep them, they were the added
+          bonus and were the cherry on top of the Kakadu cake. Brilliant. The
+          hike was hard, no doubt about that and I feel that all 3 of the guides
+          in their own way, brought that little extra something to the trip.
+          More of the same please! Please tell them that they made the trip
+          extra special and thank them for their hard work and dedication, it
+          will never be forgotten. Thank you Trek Tours.
+        </div>
+
+        <div class="box-7-col-col">
+          <h4>
+            Alison Anderson and Lyndal Worsfold, Larapinta Trail Super 6 Day
+            Trek August 2016
+          </h4>
+          We have just completed the Super 6 Day Larapinta Trek with Trek
+          Larapinta and it exceeded all expectations! Five years in the planning
+          we expected beautiful scenery, but weren’t quite prepared for the
+          scale and just how breathtaking it actually is! The trek turned out to
+          be about much more than the scenery. Our guides, Kate and Rob, are
+          experts and an asset to Trek Larapinta. They are very knowledgeable
+          about the geology, flora and fauna of the area and their enthusiasm
+          for sharing the Larapinta with others was inspiring. An added bonus
+          was their superb cooking skills. The fresh, wholesome and extremely
+          yummy food was much appreciated! There were many other highlights;
+          from our fellow trekkers who became firm friends, campfire chats,
+          sleeping under the stars in a swag, very refreshing swims in Birthday
+          Waterhole and the Finke River, a show-off Spinifex Pigeon, to
+          challenging but fun walking. Loved the rock hopping in the gorges! The
+          NT Parks trail builders who constructed all the rock stairs on the
+          slopes are to be commended. We have no hesitation in recommending Trek
+          Larapinta and hope we can join another Trek Australia tour soon!
+        </div>
+        </div>
+      </div>
+
+      <div class="box-8">
+        <a id="box-8-btn" href="">READ MORE TESTIMONIALS</a>
+      </div>
+
+      <div class="box-9">
+        <div class="box-9-col">
+          <div class="box-head">LATEST NEWS</div>
+        </div>
+        
+      </div>
+
+      <div class="box-10">
+        <div class="box-10-col">
+                  <div class="box-10-col-col">
+          <h3>
+            TREK TOURS AUSTRALIA SUMMER 2019 NEWSLETTER
+          </h3>
+          <p>
+            Check out all the latest news from Trek Tours Australia Summer 2019
+            Newsletter...
+          </p>
+          <div>12.23.2019</div>
+        </div>
+
+        <div class="box-10-col-col">
+          <h3>
+            TREK TOURS AUSTRALIA WINTER 2019 NEWSLETTER
+          </h3>
+          <p>
+            Check out all the latest news from Trek Tours Australia Summer 2019
+            Newsletter...
+          </p>
+          <div>12.23.2019</div>
+        </div>
+
+        <div class="box-10-col-col">
+          <h3>
+            JATBULA TRAIL TRAVEL BLOG
+          </h3>
+          <p>
+            Check out all the latest news from Trek Tours Australia Summer 2019
+            Newsletter...
+          </p>
+          <div>12.23.2019</div>
+        </div>
+        </div>
+
+      </div>
+
+      <div class="box-11">
+        <div id="box-8-btn">SEE MORE NEWS</div>
+      </div>
+
+      <div class="box-12">
+        <div class="six-columns box-12-card">
+          <div class="box-12-col">
+            <img src="images/awards/award-1.png" alt="" />
+          </div>
+          <div class="box-12-col">
+            <img src="images/awards/award-2.png" alt="" />
+          </div>
+          <div class="box-12-col">
+            <img src="images/awards/award-3.png" alt="" />
+          </div>
+          <div class="box-12-col">
+            <img src="images/awards/award-4.png" alt="" />
+          </div>
+          <div class="box-12-col">
+            <img src="images/awards/award-5.png" alt="" />
+          </div>
+          <div class="box-12-col">
+            <img src="images/awards/award-6.png" alt="" />
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+
+  <footer>
+    <div class="three-columns footer-card">
+      <div class="footer-col-1">
+        <a id="footer-btn" href="">Home</a>
+        <br />
+
+        <a id="footer-btn" href="https://www.trektoursaustralia.com.au/tours/"
+          >Tours</a
+        >
+        <br />
+
+        <a id="footer-btn" href="https://www.trektoursaustralia.com.au/faq/"
+          >FAQ</a
+        >
+        <a
+          id="footer-btn"
+          href="https://www.trektoursaustralia.com.au/faq/trek-gradings/"
+          >Trek Grading</a
+        >
+        <br />
+
+        <a
+          id="footer-btn"
+          href="https://www.trektoursaustralia.com.au/about-us/"
+          >About Us</a
+        >
+        <a
+          id="footer-btn"
+          href="https://www.trektoursaustralia.com.au/about-us/our-guides/"
+          >Our Guides</a
+        >
+        <a
+          id="footer-btn"
+          href="https://www.trektoursaustralia.com.au/about-us/testimonials/"
+          >Testimonials</a
+        >
+        <a
+          id="footer-btn"
+          href="https://www.trektoursaustralia.com.au/about-us/trekkers-post/"
+          >Trekkers Post</a
+        >
+        <a
+          id="footer-btn"
+          href="https://www.trektoursaustralia.com.au/about-us/photo-gallery/"
+          >Photo Gallery</a
+        >
+        <a
+          id="footer-btn"
+          href="https://www.trektoursaustralia.com.au/about-us/friends/"
+          >Friends</a
+        >
+        <a
+          id="footer-btn"
+          href="https://www.trektoursaustralia.com.au/about-us/memberships-and-accreditations/"
+          >Memberships and Accreditations</a
+        >
+        <br />
+
+        <a id="footer-btn" href="https://www.trektoursaustralia.com.au/shop/"
+          >Shop</a
+        >
+        <a
+          id="footer-btn"
+          href="https://www.trektoursaustralia.com.au/shop/trek-insurance/"
+          >Trek Insurance</a
+        >
+        <a
+          id="footer-btn"
+          href="https://www.trektoursaustralia.com.au/shop/accommodation/"
+          >Pre/Post Trek Accommodation</a
+        >
+        <a
+          id="footer-btn"
+          href="https://www.trektoursaustralia.com.au/shop/larapinta-trail-maps/"
+          >Larapinta Trail Maps</a
+        >
+        <br />
+
+        <a
+          id="footer-btn"
+          href="https://www.trektoursaustralia.com.au/bookings/"
+          >Bookings</a
+        >
+        <a
+          id="footer-btn"
+          href="https://www.trektoursaustralia.com.au/bookings/booking-conditions/"
+          >Booking Conditions</a
+        >
+        <a
+          id="footer-btn"
+          href="https://www.trektoursaustralia.com.au/contact-us/"
+          >Contact Us</a
+        >
+        <a
+          id="footer-btn"
+          href="https://www.trektoursaustralia.com.au/bookings/privacy/"
+          >Privacy</a
+        >
+        <a id="footer-btn" href="info@trektoursaustralia.com.au"
+          >Would you like to work with us?</a
+        >
+      </div>
+      <div class="footer-col-2">
+        <div class="footer-head">
+          TREK NOTHERN TERRITORY
+        </div>
+        <br />
+        <a
+          id="footer-btn"
+          href="https://www.trektoursaustralia.com.au/tour/jatbula-trail-walking-tours/"
+          >Jatbula Trail Walking Tours</a
+        >
+        <a
+          id="footer-btn"
+          href="https://www.trektoursaustralia.com.au/tour/kakadu-explorer-walking-tours/"
+          >Kakady Explorer Trekking Tours</a
+        >
+        <a
+          id="footer-btn"
+          href="https://www.trektoursaustralia.com.au/tour/koolpin-explorer-trek/"
+          >Koolpin explorer Trekking Tours</a
+        >
+        <a id="footer-btn" href="https://www.treklarapinta.com.au/"
+          >Trek Larapinta Trail Walking Tours</a
+        >
+        <a
+          id="footer-btn"
+          href="https://www.treklarapinta.com.au/tour/5-day-mt-giles-explorer-trek/"
+          >Mt Gildes Explorer Hiking Tours</a
+        >
+        <br />
+
+        <div class="footer-head">
+          TREK SOUTH AUSTRALIA
+        </div>
+        <br />
+        <a id="footer-btn" href="">Heysen Trail Walking Tours</a>
+        <a id="footer-btn" href="">Kangaroo Island Wilderness Trail</a>
+        <br />
+
+        <div class="footer-head">
+          TREK TASMANIA
+        </div>
+        <br />
+        <a id="footer-btn" href=""
+          >Walls of Jerusalem Base Camp Trekking Tours</a
+        >
+        <a id="footer-btn" href=""
+          >Walls of Jerusalem Expedition Hiking Tours</a
+        >
+        <a id="footer-btn" href="">South Coast Track Trekking Tours</a>
+        <a id="footer-btn" href="">Flinders Island Walking Tours</a>
+        <a id="footer-btn" href="">The Overland Track Hiking Tours</a>
+        <a id="footer-btn" href="">Port Davy Track Hicking Tours</a>
+        <a id="footer-btn" href="">Frenchman's Cap Walking Tours</a>
+        <a id="footer-btn" href="">Mt Anne Circuit Trekking Tours</a>
+        <br />
+
+        <div class="footer-head">TREK TARKINE</div>
+        <br />
+        <a id="footer-btn" href="">Tarkine Rainforest Experience</a>
+        <a id="footer-btn" href="">Tarkine Cost Expedition Hiking Tours</a>
+        <a id="footer-btn" href=""
+          >Tarkine Rainforest Expedition Trekking Tours</a
+        >
+        <a id="footer-btn" href="">Tarkine Rainforest Photography Workshop</a>
+        <a id="footer-btn" href="">Tarkine and the West Walking Tours</a>
+        <br />
+
+        <div class="footer-head">TREK WESTERN AUSTRALIA</div>
+        <br />
+        <a id="footer-btn" href="">Bungle Bungle Walking Tours</a>
+        <br />
+        <a id="footer-btn" href="">Private Group Trekking Tours</a>
+      </div>
+
+      <div class="footer-col-3">
+        <div class="footer-head">CONTACT US</div>
+        <br />
+
+        <a id="footer-btn" href="">1300 133 278</a>
+        <a id="footer-btn" href="">info@trektoursaustralia.com.au</a>
+        <a id="footer-btn" href="">#trektoursaustralia</a>
+        <a id="footer-btn" href="">#treklarapinta</a>
+        <a id="footer-btn" href="">#trektasmania</a>
+        <a id="footer-btn" href="">#tarkinetrails</a>
+        <br />
+
+        <i id="footer-icon" class="fab fa-facebook-f"></i>
+        <i id="footer-icon" class="fab fa-twitter"></i>
+        <i id="footer-icon" class="fab fa-instagram"></i>
+        <br />
+
+        <div id="footer-mail-btn">JOIN MAILING LIST</div>
+
+        <img
+          id="footer-logo"
+          src="images/logos/TrekLarapinta-logo.png"
+          alt=""
+        />
+        <img id="footer-logo" src="images/logos/TrekTasmania-logo.png" alt="" />
+        <img
+          id="footer-logo"
+          src="images/logos/TarkineTrails-logo.png"
+          alt=""
+        />
+      </div>
+    </div>
+
+    <script src="main.js"></script>
+    <script src="nav.js"></script>
+  </footer>
+</html>
